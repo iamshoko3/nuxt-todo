@@ -1,7 +1,7 @@
  <template>
  <div>
    <el-container>
-     <el-header height="40px">
+     <el-header height="60px">
        TODO APP
      </el-header>
      <nuxt />
