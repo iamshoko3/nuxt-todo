@@ -22,9 +22,11 @@
         <el-col :span="8">
           <ul class="list">
             <li v-for="(todo, index) in todoList" :key="index" class="todo">
-              <span class="title" :class="todo.isChecked && 'checked'">{{
-                todo.title
-              }}</span>
+              <span class="title" :class="todo.isChecked && 'checked'">
+                
+                {{todo.title}}
+              
+              </span>
               <div class="icons">
                 <i class="el-icon-check" @click="handleCheck(index)"></i>
                 <i class="el-icon-delete" @click="handleDelete(index)"></i>
